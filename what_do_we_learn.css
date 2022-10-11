@@ -1,0 +1,13 @@
+.what-do-we-learn {
+    padding-top: 10vh;
+    width: 90%;
+}
+
+.what-do-we-learn .list-part {
+    width: 55%;
+    font-size: 3vh;
+}
+
+.what-do-we-learn .list-part li {
+    margin-bottom: 7px;
+}

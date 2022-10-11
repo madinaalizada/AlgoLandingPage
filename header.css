@@ -1,0 +1,58 @@
+.header img {
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.header-icons .header-icon-div {
+    margin-right: 3vh;
+}
+
+.header-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 88%;
+}
+
+.header-about .header-about-text {
+    width: 60%;
+}
+
+.header-about .header-about-text h1 {
+    font-size: 72px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.header-about .header-about-text p {
+    width: 60%;
+    font-size: 2.7vh;
+    margin-top: -22px;
+}
+
+.header-about img {
+    width: 25%;
+}
+
+.header-modal {
+    margin: 10px auto;
+    background-color: #1E4681;
+    padding: 1vh 3vh;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 3vh;
+    width: 30%;
+    font-weight: 400;
+}
+
+.header-modal #author {
+    font-size: 2.2vh;
+    font-weight: 100;
+    text-align: right;
+}

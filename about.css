@@ -1,0 +1,58 @@
+.about {
+    padding-top: 10vh;
+    width: 84%;
+}
+
+.about h3 {
+    line-height: 18px;
+}
+
+.about .about-text-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about .about-text-part .about-text {
+    width: 50%;
+    font-size: 3vh;
+}
+
+.about .about-text-part img {
+    width: 25%;
+}
+
+.about .about-parts-section {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.about .about-parts-section img {
+    width: 27%;
+    margin-right: 10vh;
+}
+
+.about .about-parts-section .about-parts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .about-parts-section .about-parts .about-part {
+    margin-right: 5vh;
+}
+
+.about .about-parts-section .about-parts .about-part .about-part-header {
+    font-weight: 700;
+    font-size: 3vh;
+    line-height: 8px;
+}
+
+.about .about-parts-section .about-parts .about-part .about-part-text {
+    font-weight: 400;
+    font-size: 2.7vh;
+}
