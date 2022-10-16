@@ -1,0 +1,20 @@
+.beginning-course {
+    background: rgba(157, 201, 200, 1);
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+}
+
+.beginning-course h3 {
+    margin: 0;
+}
+
+.beginning-course-parts {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.beginning-course-parts .beginning-course-part {
+    width: 35%;
+    margin-right: 20px;
+}

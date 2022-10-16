@@ -1,0 +1,29 @@
+.course-cards {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.course-card {
+    width: 30%;
+    margin: 0 3vh 10vh 0;
+    box-shadow: 1px 2px 20px -7px rgba(0,0,0,0.75);
+    border-radius: 30px;
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.course-card .course-card-text {
+    padding: 1vw;
+}
+
+/* .course-card .course-card-text p {
+    margin: 0;
+    font-size: 2vw;
+} */

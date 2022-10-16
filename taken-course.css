@@ -1,0 +1,21 @@
+.taken-course {
+    background-color: rgba(239, 239, 239, 1);
+    padding-top: 1vh;
+    padding-bottom: 10vh;
+}
+
+.taken-course-modal {
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 10px 15px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.taken-course-modal-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

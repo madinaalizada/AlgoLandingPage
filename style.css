@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
@@ -20,9 +21,17 @@ h3 {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    overflow: auto;
 }
 
-.container > div {
+.container > div , .container > footer{
     margin: 0;
     padding-left: 8vw;
+    overflow: auto;
+}
+
+@media (min-width: 1280px) {
+    .container > div , .container > footer{
+        padding-left: 5%;
+    }
 }
