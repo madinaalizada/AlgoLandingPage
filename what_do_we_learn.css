@@ -1,13 +1,35 @@
 .what-do-we-learn {
-    padding-top: 10vh;
     width: 90%;
 }
 
-.what-do-we-learn .list-part {
-    width: 55%;
-    font-size: 3vh;
-}
 
 .what-do-we-learn .list-part li {
     margin-bottom: 7px;
+}
+
+@media (min-width: 1280px) {
+    .what-do-we-learn {
+        font-size: 28px;
+    }
+    .what-do-we-learn .list-part {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .what-do-we-learn {
+        font-size: 26px;
+    }
+    .what-do-we-learn .list-part {
+        width: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    .what-do-we-learn {
+        font-size: 24px;
+    }
+    .what-do-we-learn .list-part {
+        width: 80%;
+    }
 }

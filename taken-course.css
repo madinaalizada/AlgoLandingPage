@@ -1,21 +1,65 @@
 .taken-course {
     background-color: rgba(239, 239, 239, 1);
-    padding-top: 1vh;
-    padding-bottom: 10vh;
+    padding-top: 15px;
+    padding-bottom: 60px;
 }
 
 .taken-course-modal {
     background-color: white;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    padding: 10px 15px;
-    width: 45%;
+    padding: 5px 25px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .taken-course-modal-footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
+}
+
+@media (min-width: 1280px) {
+    .taken-course-modal {
+        width: 50%;
+    }
+    .taken-course-modal p {
+        font-size: 26px;
+    }
+    .taken-course-modal-footer h4{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .taken-course-modal {
+        width: 55%;
+    }
+    .taken-course-modal p {
+        font-size: 26px;
+    }
+    .taken-course-modal-footer h4{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .taken-course-modal {
+        width: 80%;
+    }
+    .taken-course-modal p {
+        font-size: 20px;
+    }
+    .taken-course-modal-footer h4{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .taken-course-modal-footer img {
+        width: 125px;
+    }
+    .taken-course-modal-author img {
+        width: 20px;
+    }
 }

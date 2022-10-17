@@ -6,34 +6,26 @@
 .header-icons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 50%;
-}
-
-.header-icons .header-icon-div {
-    margin-right: 3vh;
 }
 
 .header-about {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 88%;
 }
 
 .header-about .header-about-text {
-    width: 60%;
+    width: 50%;
 }
 
 .header-about .header-about-text h1 {
-    font-size: 10vw;
-    line-height: 70px;
     font-weight: 700;
 }
 
 .header-about .header-about-text p {
-    width: 60%;
-    font-size: 2.7vh;
-    margin-top: -22px;
+    font-size: 20px;
 }
 
 .header-about img {
@@ -43,16 +35,104 @@
 .header-modal {
     margin: 10px auto;
     background-color: #1E4681;
-    padding: 1vh 3vh;
+    padding: 10px 20px;
     border-radius: 3px;
     color: #fff;
     font-size: 3vh;
-    width: 30%;
     font-weight: 400;
 }
 
 .header-modal #author {
-    font-size: 2.2vh;
     font-weight: 100;
     text-align: right;
 }
+
+
+
+@media (min-width: 1280px) {
+    .header-about {
+        justify-content: space-between;
+    }
+    .header-about .header-about-text p {
+        width: 80%;
+    }
+    .header-about .header-about-text h1 {
+        font-size: 5vw;
+        line-height: 20vh;
+    }
+    .header-modal {
+        width: 30%;
+        font-size: 20px;
+    }
+    .header-modal #author {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .header-about {
+        justify-content: space-between;
+    }
+    .header-about .header-about-text h1 {
+        font-size: 5.2vw;
+        line-height: 20vh;
+    }
+    .header-modal {
+        width: 35%;
+        font-size: 18px;
+    }
+    .header-modal #author {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-about {
+        flex-direction: column;
+    }
+    .header-about img {
+        width: 50%;
+        align-self: flex-end;
+    }
+    .header-icons {
+        width: 98%;
+        font-size: 4vw;
+    }
+    .header-about .header-about-text {
+        width: 85%;
+    }
+    .header-about .header-about-text h1 {
+        font-size: 70px;
+        line-height: 24vh;
+    }
+    .header-modal {
+        width: 60%;
+        font-size: 21px;
+    }
+    .header-modal #author {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 560px) {
+    .header-about .header-about-text {
+        width: 100%;
+    }
+    .header-about .header-about-text h1 {
+        font-size: 60px;
+        line-height: 24vh;
+    }
+}
+/*
+@media (min-width: 1280px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    
+}
+
+@media (max-width: 991px) {
+    
+}
+*/

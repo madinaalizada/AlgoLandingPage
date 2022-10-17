@@ -1,21 +1,55 @@
 .class-format .class-format-parts {
-    width: 90%;
+    width: 98%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
 .class-format .class-format-parts .class-format-part {
-    width: 33%;
+    width: 32%;
 }
 
 .class-format .class-format-parts .class-format-part .class-format-part-header {
     color: #1E4681;
-    font-size: 3vh;
     font-weight: 700;
 
 }
 
-.class-format .class-format-parts .class-format-part .class-format-part-text {
-    width: 70%;
+@media (min-width: 1280px) {
+    .class-format .class-format-parts .class-format-part .class-format-part-header {
+        font-size: 28px;
+    }
+    
+    .class-format .class-format-parts .class-format-part .class-format-part-text {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .class-format .class-format-parts .class-format-part .class-format-part-header {
+        font-size: 24px;
+    }
+    
+    .class-format .class-format-parts .class-format-part .class-format-part-text {
+        font-size: 22px;
+        width: 85%;
+    }
+}
+
+@media (max-width: 991px) {
+    .class-format .class-format-parts .class-format-part .class-format-part-header {
+        font-size: 24px;
+    }
+    
+    .class-format .class-format-parts .class-format-part .class-format-part-text {
+        font-size: 22px;
+        width: 98%;
+    }
+    .class-format .class-format-parts {
+        flex-direction: column;
+    }
+    .class-format .class-format-parts .class-format-part {
+        width: 72%;
+    }
 }

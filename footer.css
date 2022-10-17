@@ -1,12 +1,14 @@
 .footer {
     background: rgba(0, 0, 0, 1);
-    overflow: auto;
     color: white;
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 30px;
+    overflow: auto;
+}
+.footer p {
+    font-size: 18px;
 }
 
 .footer .footer-logos {
@@ -14,6 +16,15 @@
     flex-direction: row;
     justify-content: space-between;
     width: 98%;
+}
+
+.contact {
+    margin-right: 10%;
+}
+
+.contact > div {
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .footer .footer-logos .footer-imgs {
@@ -24,10 +35,34 @@
 .footer .footer-logos .footer-imgs .footer-social-media {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .footer .footer-logos .footer-imgs .footer-social-media img {
-    width: 5vh;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+@media (min-width: 1280px) {
+    .footer-social-media img{
+        width: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    
+}
+
+@media (max-width: 991px) {
+    .footer .footer-logos .footer-imgs > img {
+        width: 30%;
+    }
+    .footer .footer-logos {
+        flex-direction: column;
+    }
+    .contact {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
